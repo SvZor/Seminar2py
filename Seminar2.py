@@ -8,4 +8,8 @@
 # .split()
 
 stroka = input()
-stroka = stroka.split()
+print(stroka)
+stroka = stroka.split(',')
+print(stroka)
+
+
