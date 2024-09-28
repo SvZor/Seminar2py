@@ -7,9 +7,16 @@
 # Для решения данной задачи используйте функцию
 # .split()
 
-stroka = input()
-print(stroka)
-stroka = stroka.split(',')
-print(stroka)
+# stroka = input() # для примера создания словаря
+# print(stroka)
+# stroka = stroka.split(',')
+# print(stroka)
+
+stroka = input().split()
+res {} #создаем пустой словарь
+
+for i in stroka: #создаем цикл, который пройдется по списку
+    res[i] = res.get(i, 0)  #функция get в которую передаются 2 значения6 ключ и дефолтное значение
+
 
 
